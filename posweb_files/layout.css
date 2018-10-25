@@ -1,0 +1,127 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+IMG.screenshot {
+	padding-bottom: 16px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+IMG.platform {
+	padding-bottom: 16px;
+	text-align: center;
+	max-height: 45px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+/*    display: block;
+    margin-left: auto;
+    margin-right: auto */
+}
+
+h1{
+
+}
+
+IMG.block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height:auto;
+}
+
+body{
+	background-color: #FFFFFF;
+
+	/*background-image: url('confetti.gif');*/
+}
+
+#aboveground
+{
+	background-color: #a7edff;
+}
+#underground{
+	background-color: #191f4d;
+	/*background-image: url('confetti.gif');*/
+}
+#groundtransition{
+	background-color: #a7edff;
+	background-image: url('groundborder.png');
+	min-height: 64px;
+}
+
+.title{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.text{
+	margin-left : 10%;
+	margin-right: 10%;
+	/*background-color: #99cc99;*/
+}
+
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: futuraBold;
+	    src: url('../fonts/FuturaBold.eot');
+	    src: url('../fonts/FuturaBold.eot?iefix') format('eot'),
+	         url('../fonts/FuturaBold.woff') format('woff'),
+	         url('../fonts/FuturaBold.ttf') format('truetype'),
+	         url('../fonts/FuturaBold.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }*/
